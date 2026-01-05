@@ -1,4 +1,4 @@
-# 💻 Natasha’s Personal Portfolio
+# 💻 Wacheke's Personal Portfolio
 
 _“Innovative web development fueled by curiosity and code.”_ 🚀
 
