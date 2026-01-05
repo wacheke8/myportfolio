@@ -41,7 +41,7 @@ Other images are placeholders or designed purely for demo purposes.
 
 ## 👩‍💻 About Me
 
-Built with love by [@wacheke8](https://github.com/slate299).
+Built with love by [@slate299](https://github.com/slate299).
 This project reflects my passion for clean design and creative coding, and it’s just the beginning.
 
 ---
