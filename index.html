@@ -1,10 +1,11 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
+    <!-- ✅ SEO Meta Tags -->
     <title>Elizabeth Wacheke | Web Developer Portfolio</title>
     <meta
       name="description"
@@ -16,6 +17,7 @@
     />
     <meta name="author" content="Elizabeth Wacheke Njuguna" />
 
+    <!-- ✅ Open Graph Meta Tags-->
     <meta property="og:title" content="Wacheke | Web Developer Portfolio" />
     <meta
       property="og:description"
@@ -28,19 +30,24 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://wacheke8.github.io/myportfolio/" />
 
+    <!-- ✅ Favicon (Optional) -->
     <link rel="icon" href="assets/images/faviconlogo.png" type="image/x-icon" />
 
+    <!-- ✅ Link to CSS -->
     <link rel="stylesheet" href="assets/css/portfolio.css" />
   </head>
 
   <body id="top">
+    <!-- ✅ Header & Navigation -->
     <header>
       <div class="container">
         <h1 class="logo">Wacheke</h1>
 
         <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+
         <label for="menu-toggle" class="menu-icon"></label>
 
+        <!-- Nav links -->
         <nav class="navbar">
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
@@ -52,6 +59,7 @@
       </div>
     </header>
 
+    <!-- ✅ Hero Section -->
     <section class="hero">
       <div class="overlay">
         <div class="hero-content">
@@ -66,7 +74,7 @@
           <div class="hero-image">
             <img src="assets/images/profile.jpg" alt="Elizabeth's photo" />
             <a
-              href="assets/docs/Elizabeth_Resume.pdf"
+              href="assets/docs/Elizabeth wacheke_Resume.pdf"
               class="btn resume-btn"
               download
             >
@@ -77,10 +85,11 @@
       </div>
     </section>
 
+    <!-- ✅ About Section -->
     <section class="about" id="about">
       <div class="about-container">
         <div class="about-image">
-          <img src="assets/images/githubporfolioavatar.jpg" alt="Elizabeth's Avatar" />
+          <img src="assets/images/githubporfolioavatar.jpg" alt="My photo" />
         </div>
         <div class="about-text">
           <h2>About Me</h2>
@@ -101,6 +110,7 @@
       </div>
     </section>
 
+    <!-- ✅ Skills Section -->
     <section id="skills" class="skills-section">
       <h2>My Skills</h2>
 
@@ -125,7 +135,7 @@
       </div>
 
       <div class="skill">
-        <p>Django</p>
+        <p>django</p>
         <div class="progress-bar"><div class="progress django">70%</div></div>
       </div>
 
@@ -140,6 +150,7 @@
       </div>
     </section>
 
+    <!-- ✅ Projects Section -->
     <section id="projects" class="projects-section">
       <h2 class="section-title">My Works in Progress</h2>
       <div class="projects-grid">
@@ -151,7 +162,12 @@
               A rental marketplace for agricultural equipment and services,
               supporting SDG 2: Zero Hunger.
             </p>
-            <a href="https://github.com/wacheke8/agri_match" target="_blank" class="btn">GitHub Repo</a>
+            <a
+              href="https://github.com/wacheke8/agri_match"
+              target="_blank"
+              class="btn"
+              >GitHub Repo</a
+            >
           </div>
         </div>
 
@@ -160,43 +176,62 @@
           <div class="project-info">
             <h3>To-Do Task Manager App</h3>
             <p>
-              A productivity-focused react app to manage and track tasks efficiently.
+              A productivity-focused react app to manage and track tasks
+              efficiently.
             </p>
-            <a href="https://github.com/wacheke8/React2-Taskmanager" target="_blank" class="btn">GitHub Repo</a>
+            <a
+              href="https://github.com/wacheke8/React2-Taskmanager"
+              target="_blank"
+              class="btn"
+              >GitHub Repo</a
+            >
           </div>
         </div>
-
         <div class="project-card">
           <img src="assets/images/photofolio.jpg" alt="PhotoFolio" />
           <div class="project-info">
             <h3>PhotoFolio</h3>
             <p>
-              A photography portfolio website, designed for wildlife and nature presentation.
+              A photography portfolio website, designed for wildlife and nature
+              photography presentation.
             </p>
-            <a href="https://github.com/wacheke8/photofolio" target="_blank" class="btn">GitHub Repo</a>
+            <a
+              href="https://github.com/wacheke8/photofolio"
+              target="_blank"
+              class="btn"
+              >GitHub Repo</a
+            >
           </div>
         </div>
       </div>
     </section>
 
+    <!-- ✅ Education Section -->
     <section class="education-section" id="education">
       <h2 class="section-title">Education</h2>
       <div class="education-stack">
-        <div class="education-card">
-          <h3>TechCamp Kenya</h3>
-          <p>Full Stack Software Development (HTML, CSS, JavaScript, Python, PostgreSQL)</p>
-          <span class="edu-status">Completed</span>
-        </div>
+    <div class="education card">
+    <h3>
+      TechCamp Kenya
+    </h3>
+    <p>Full Stack Software Development (HTML, CSS, JavaScript, Python, PostgreSQL)</p>
+    <span class="status">Completed</span>
+</div>
 
-        <div class="education-card">
-          <h3>eMobilis Technology Institute</h3>
-          <p>Full Stack Development (Frontend + Backend + Mobile)</p>
-          <span class="edu-status">Completed</span>
-        </div>
-
+<div class="edu-item">
+    <h3>
+      eMobilis Technology Institute
+    </h3>
+    <p>Full Stack Development (Frontend + Backend + Mobile)</p>
+    <span class="status">Completed</span>
+</div>
         <div class="education-card">
           <h3>Power Learn Project (PLP)</h3>
-          <p>Software Engineering Programme<br /><span class="edu-status">Currently Studying</span></p>
+          <p>
+            Software Engineering Programme<br /><span class="edu-status"
+              >Currently Studying</span
+            >
+          </p>
         </div>
 
         <div class="education-card">
@@ -206,60 +241,94 @@
       </div>
     </section>
 
+    <!-- ✅ Interests Section -->
     <section class="interests-section" id="interests">
       <h2 class="section-title">Interests</h2>
       <div class="interests-grid">
         <div class="interest-card">
           <span class="icon">💻</span>
           <h3>Web Development</h3>
-          <p>I enjoy creating intuitive and responsive websites that solve real problems.</p>
+          <p>
+            I enjoy creating intuitive and responsive websites that solve real
+            problems.
+          </p>
         </div>
         <div class="interest-card">
           <span class="icon">🎮</span>
           <h3>Gaming</h3>
-          <p>I enjoy exploring different game genres, solving puzzles, and mechanics.</p>
+          <p>
+            I enjoy exploring different game genres, solving in-game puzzles,
+            and appreciating great storytelling and mechanics.
+          </p>
         </div>
+
         <div class="interest-card">
           <span class="icon">🐾</span>
           <h3>Wildlife & Nature</h3>
-          <p>Spending time in nature and hiking inspires my creativity.</p>
+          <p>
+            Spending time in nature,hiking, watching birds, and appreciating natural
+            beauty inspires my creativity.
+          </p>
         </div>
         <div class="interest-card">
           <span class="icon">🎨</span>
           <h3>UI/UX Design</h3>
-          <p>I’m passionate about creating clean interfaces and enjoyable experiences.</p>
+          <p>
+            I’m passionate about creating clean interfaces and enjoyable user
+            experiences.
+          </p>
         </div>
       </div>
     </section>
 
+    <!-- ✅ Contact Section -->
     <section class="contact-section" id="contact">
       <h2 class="section-title">Contact Me</h2>
-      <p class="contact-text">Feel free to reach out for collaboration or just to say hi!</p>
+      <p class="contact-text">
+        Feel free to reach out for collaboration, questions, or just to say hi!
+      </p>
 
-      <form action="mailto:njugunawacheke8@gmail.com" method="post" enctype="text/plain" class="contact-form">
+      <form
+        action="mailto:njugunawacheke8@gmail.com"
+        method="post"
+        enctype="text/plain"
+        class="contact-form"
+      >
         <input type="text" name="name" placeholder="Your Name" required />
         <input type="email" name="email" placeholder="Your Email" required />
-        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <textarea
+          name="message"
+          placeholder="Your Message"
+          rows="5"
+          required
+        ></textarea>
         <button type="submit">Send Message</button>
       </form>
     </section>
 
+    <!-- ✅ Footer -->
     <footer class="site-footer">
       <p>&copy; 2025 Elizabeth Wacheke Njuguna. All rights reserved.</p>
+
       <div class="footer-links">
         <a href="#about">About</a>
         <a href="#education">Education</a>
         <a href="#interests">Interests</a>
         <a href="#contact">Contact</a>
       </div>
+
       <div class="social-icons">
-        <a href="https://www.linkedin.com/in/Elizabeth-Wacheke-a2b268337/" target="_blank">LinkedIn</a>
-        <a href="https://github.com/wacheke8" target="_blank">GitHub</a>
+        <a
+          href="https://www.linkedin.com/in/Elizabeth-Wacheke-a2b268337/"
+          target="_blank"
+        >
+          LinkedIn
+        </a>
+        <a href="https://github.com/wacheke8" target="_blank"> GitHub </a>
       </div>
     </footer>
 
+    <!-- ✅ Back to Top Button -->
     <a href="#top" class="back-to-top">↑ Back to Top</a>
   </body>
 </html>
-
-
